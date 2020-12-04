@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.toolbar{
+    width: 100%;
+    background-color: #444444;
+    overflow: auto;
+}
+
+.toolbar a {
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+/* Change color on hover */
+.toolbar a:hover {
+    background-color: #000;
+  }
+
+
+/* Change color on selected icon */
+.selected {
+    background-color: #000;
+}
+
+
+
+.toolbar a img{
+    max-width:100%;
+    height:auto;
+}
