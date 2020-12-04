@@ -5,7 +5,7 @@ import { SketchPicker } from 'react-color';
 
 function App() {
   const [color, setColor] = useState('#000000');
-  const [lineSize, setLineSize] = useState(7);
+  const [lineSize, setLineSize] = useState(5);
   const [isDrawing, setIsDrawing] = useState(false)
   const [isUsingBrush, setIsUsingBrush] = useState(false)
   const [image, saveImage] = useState(null)
